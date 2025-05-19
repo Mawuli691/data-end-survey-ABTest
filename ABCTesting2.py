@@ -2,7 +2,7 @@ import pandas as pd
 from statsmodels.stats.proportion import proportions_ztest
 
 # Load dataset
-df = pd.read_csv("Fidobiz_Product_A_B_C_Testing_2025_05_12 (1).csv")
+df = pd.read_csv("Fidobiz_Product_A_B_C_Testing_2025_05_12_1.csv")
 
 # Function to calculate and print z-tests with rates
 def perform_ztests(kpi, base):
